@@ -21,7 +21,7 @@ Before you can run the Notes Web App locally, ensure that your computer meets th
 2. Check the configuration file located at config/config.php. Ensure that it contains the following database settings:
 'host' => 'localhost',
 'port' => 3306,
-'dbname' => 'notesdb',
+'dbname' => 'myapp',
 'charset' => 'utf8mb4',
 // Add username and password if necessary
 'username' => 'your_db_username',
@@ -29,7 +29,7 @@ Before you can run the Notes Web App locally, ensure that your computer meets th
 
 Update the configuration file with the appropriate values for your local database setup.
 
-Locate the notesdb.sql file in the root folder directory of the program.
+Locate the myapp.sql file in the root folder directory of the program.
 
 Use specialized database software like phpMyAdmin or TablePlus to create a new database (e.g., notesdb) and import the notesdb.sql file into it.
 
